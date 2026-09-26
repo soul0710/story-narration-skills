@@ -1,0 +1,237 @@
+{
+  "title": "Bức thư của ông",
+  "language": "vi",
+  "target_minutes": 30.0,
+  "rate_spm": 189,
+  "rate_calibrated": true,
+  "profile": "dramatic",
+  "stage": "review",
+  "brief": {
+    "titles": [
+      "Bức thư của ông — gửi về sau bảy năm",
+      "Người đã mất gửi thư về",
+      "Chìa khóa ở chỗ cũ"
+    ],
+    "logline": "Bảy năm sau khi ông nội mất, Lan nhận được thư viết bằng nét chữ của ông gọi cô về quê trước rằm tháng Bảy; cô phải mở căn phòng bà nội cấm cửa trước khi chú Hùng bán căn nhà, và nếu thất bại, cô mất luôn cơ hội biết vì sao mẹ bỏ đi hai mươi năm trước.",
+    "genre": "Gia đình / bí ẩn",
+    "core_emotion": "tò mò → xót → day dứt → ấm",
+    "premise_promise": "Từng lớp bí mật của một gia đình miền Tây được mở ra bằng những đồ vật cũ: bức thư, chiếc chìa khóa, căn phòng khóa, những lá thư không bao giờ được trao.",
+    "theme": "Giữ một người ở lại bằng cách giấu sự thật có phải là thương không?",
+    "setting": "Một làng ven sông ở Cần Thơ, những năm 2020; nhà gỗ ba gian của bà nội có hiên dài, vườn khế, bến phà nhỏ.",
+    "narrator": "Ngôi thứ ba, gần Lan; giọng ấm, kiềm chế; thiết bị: câu 'Về sau Lan mới hiểu…' dùng tối đa một lần mỗi hồi.",
+    "ending": "Ấm nhưng có mất mát: bà dần quên, nhưng ba thế hệ ngồi chung một chuyến phà rằm tháng Bảy. Hình ảnh cuối: Lan bỏ một lá thư vào hòm thư trước cổng nhà bà — đảo ngược hình ảnh mở đầu.",
+    "four_anchors": {
+      "opening": "Lan ở Sài Gòn nhận thư có nét chữ của người ông đã mất",
+      "plot_point_1": "Lan tự quyết định mở căn phòng khóa bằng chiếc chìa khóa đồng",
+      "plot_point_2": "Chú Hùng đốt những lá thư, Lan tìm được cuốn sổ của bà",
+      "ending": "Lan đưa mẹ về đúng rằm, đọc lời bà viết trước người mua, căn nhà được giữ"
+    },
+    "engine": "Mỗi đồ vật cũ mở ra một lớp sự thật, và mỗi lớp khiến Lan phải chọn giữa bà và mẹ; đích đến: đưa mẹ về nhà trước rằm, khi bà còn nhận ra con dâu.",
+    "endgame_reserve": {
+      "Người viết thư là bà": "sớm nhất chương 4",
+      "Bà đang mất trí nhớ": "chương 4",
+      "Mẹ còn sống và viết thư suốt hai mươi năm": "chương 3",
+      "Lời dặn của bà trong sổ": "chương 6"
+    },
+    "runtime": {
+      "target_minutes": 30,
+      "rate_spm": "calibrate",
+      "chapters": "6 x 5 phút"
+    },
+    "cold_open_idea": "Flash-forward: Lan đang chạy dọc hiên nhà trong đêm, tay nắm chặt chiếc chìa khóa đồng; câu hỏi: vì sao người chết lại gửi thư?"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Bức thư của người đã mất",
+      "minutes": 5,
+      "act": "1",
+      "beat": "cold-open, opening-image, set-up, catalyst",
+      "purpose": "Lan ở Sài Gòn nhận thư nét chữ ông gọi về trước rằm; về quê, bà lạnh lùng chối có thư; Lan đối chiếu nét chữ",
+      "turn": "bình yên → bất an",
+      "choice": "Lan bỏ việc ba ngày để về quê thay vì gọi điện hỏi",
+      "outcome": "no-and",
+      "scenes": [
+        "Phòng trọ Sài Gòn",
+        "Ghe của Minh qua sông",
+        "Bữa cơm ở hiên nhà bà"
+      ],
+      "locations": [
+        "phòng trọ",
+        "ghe của minh",
+        "nhà bà nội"
+      ],
+      "intensity": 2,
+      "cold_open": "Flash-forward: Lan chạy dọc hiên nhà trong đêm, tay nắm chặt chìa khóa đồng; bà hỏi ai cho mở cửa; câu hỏi: vì sao người chết gửi thư?",
+      "plants": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "payoffs": [],
+      "hook_type": "revelation",
+      "end_hook": "Mực trên thư còn mới, dấu bưu điện là của xã, gửi hôm qua",
+      "cause": "Bức thư nét chữ ông gọi về trước rằm",
+      "consequence": "Bà chối có thư; Lan phát hiện thư gửi từ ngay trong xã"
+    },
+    {
+      "id": 2,
+      "title": "Chìa khóa ở chỗ cũ",
+      "minutes": 5,
+      "act": "1",
+      "beat": "debate, break-into-2",
+      "purpose": "Lan tìm chìa khóa trong hốc cây khế; chú Hùng dẫn người môi giới tới, lộ chuyện bán nhà; bà gọi Lan bằng tên mẹ cô",
+      "turn": "lưỡng lự → quyết tâm",
+      "choice": "Lan từ chối ký giấy đồng ý bán và giữ chìa khóa",
+      "outcome": "yes-but",
+      "scenes": [
+        "Vườn khế sáng sớm",
+        "Hiên nhà: chú Hùng và người môi giới"
+      ],
+      "locations": [
+        "nhà bà nội",
+        "nhà bà nội (vườn khế)"
+      ],
+      "intensity": 3,
+      "plants": [
+        "P04",
+        "P06"
+      ],
+      "payoffs": [],
+      "hook_type": "threat",
+      "end_hook": "Chú Hùng: trước rằm, chú dỡ căn phòng đó",
+      "cause": "Chú Hùng dẫn người môi giới tới đòi ký bán nhà",
+      "consequence": "Chú dọa dỡ căn phòng trước rằm; Lan quyết mở phòng"
+    },
+    {
+      "id": 3,
+      "title": "Căn phòng cuối hiên",
+      "minutes": 5,
+      "act": "2",
+      "beat": "fun-and-games",
+      "purpose": "Đêm, Lan mở căn phòng: hai mươi năm thư của mẹ gửi cho cô; bà bắt gặp và bảo đốt hết",
+      "turn": "tin mẹ bỏ mình → biết mẹ không bỏ",
+      "choice": "Lan giấu lá thư mới nhất vào túi thay vì trả lại cho bà",
+      "outcome": "yes-but",
+      "mechanism": "đồ vật cũ mở một lớp sự thật",
+      "cost": "Lan phá lời bà, bà không nói chuyện với cô nữa",
+      "scenes": [
+        "Căn phòng cuối hiên trong đêm",
+        "Hiên nhà dưới đèn vàng"
+      ],
+      "locations": [
+        "căn phòng cuối hiên",
+        "nhà bà nội"
+      ],
+      "intensity": 3,
+      "plants": [
+        "P05"
+      ],
+      "payoffs": [
+        "P03"
+      ],
+      "hook_type": "revelation",
+      "end_hook": "Lá thư mới nhất gửi tháng trước, có địa chỉ ở chợ nổi Cái Răng",
+      "cause": "Lời dọa dỡ phòng + chiếc chìa khóa",
+      "consequence": "Lan biết má không bỏ mình; bà cắt đứt, bảo đốt thư"
+    },
+    {
+      "id": 4,
+      "title": "Người viết thư",
+      "minutes": 5,
+      "act": "2",
+      "beat": "midpoint",
+      "purpose": "Minh kể thấy bà gửi thư và bà hay đi lạc; Lan tìm xấp giấy bà tập chữ ông suốt bốn tháng; bà lẫn, nói với Lan như với Hạnh, thú nhận đuổi con dâu và giấu thư",
+      "turn": "giận bà → thương bà",
+      "choice": "Lan quyết định đi tìm mẹ ngay sáng mai",
+      "outcome": "yes-but",
+      "mechanism": "đồ vật cũ mở một lớp sự thật",
+      "cost": "Lan phải để bà một mình với chú Hùng",
+      "scenes": [
+        "Bến phà: Minh kể chuyện",
+        "Gian thờ: bà nhầm Lan là mẹ cô"
+      ],
+      "locations": [
+        "bến phà",
+        "nhà bà nội"
+      ],
+      "intensity": 4,
+      "plants": [],
+      "payoffs": [
+        "P01",
+        "P06"
+      ],
+      "hook_type": "crisis",
+      "end_hook": "Ghe vừa rời bến đi tìm má thì xe tải của chú Hùng dừng trước cổng, trong nhà chỉ còn bà",
+      "cause": "Lá thư có địa chỉ chợ nổi; Minh làm nhân chứng",
+      "consequence": "Lan rời nhà đi tìm má, để bà một mình với chú Hùng"
+    },
+    {
+      "id": 5,
+      "title": "Tro",
+      "minutes": 5,
+      "act": "2",
+      "beat": "bad-guys-close-in, all-is-lost, dark-night",
+      "purpose": "Mẹ ở chợ nổi quay mặt không nhận Lan; về nhà, thư đã bị chú Hùng đốt, bà bị đưa lên thị trấn; chú kể nửa sự thật năm xưa; Lan tìm cuốn sổ của bà ở hốc cây khế",
+      "turn": "hy vọng → mất hết → một lối ra",
+      "choice": "Lan đổi xưng hô với chú, quyết đưa mẹ về đúng rằm",
+      "outcome": "no-and",
+      "mechanism": "đồ vật cũ mở một lớp sự thật",
+      "cost": "Mất thùng thư; Lan đối đầu công khai với chú",
+      "scenes": [
+        "Chợ nổi Cái Răng",
+        "Sân sau: đống tro",
+        "Căn phòng trống, ngăn kéo ông"
+      ],
+      "locations": [
+        "chợ nổi",
+        "nhà bà nội",
+        "căn phòng cuối hiên",
+        "ghe của minh"
+      ],
+      "intensity": 4,
+      "plants": [],
+      "payoffs": [],
+      "hook_type": "dilemma",
+      "end_hook": "Trang cuối sổ: nếu mai bà quên, đừng để bà biết; chín giờ sáng mai chú chở bà về ký",
+      "cause": "Lan đi vắng, chú Hùng ra tay",
+      "consequence": "Thư bị đốt; mẹ từ chối; Lan tìm ra cuốn sổ và có lý do đưa mẹ về"
+    },
+    {
+      "id": 6,
+      "title": "Rằm tháng Bảy",
+      "minutes": 5,
+      "act": "3",
+      "beat": "break-into-3, finale, final-image",
+      "purpose": "Lan đưa sổ cho má, má về; trước người mua, Lan đọc lời bà, giao dịch đổ; Lan trả cọc giùm chú bằng tiền dành dụm; bà trao chìa khóa cho má; ba bà cháu trên ghe; Lan viết thư mỗi sáng cho bà",
+      "turn": "chia lìa → sum họp",
+      "choice": "Lan đọc to cuốn sổ trước mặt chú và người mua",
+      "outcome": "yes-but",
+      "scenes": [
+        "Chợ nổi lúc rạng sáng",
+        "Hiên nhà: buổi ký giấy",
+        "Bến phà hoàng hôn"
+      ],
+      "locations": [
+        "chợ nổi",
+        "nhà bà nội",
+        "bến phà",
+        "ghe của minh"
+      ],
+      "intensity": 5,
+      "plants": [],
+      "payoffs": [
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "hook_type": "",
+      "end_hook": "",
+      "cost": "Lan mất một trăm triệu tiền dành dụm và bỏ đời sống Sài Gòn",
+      "cause": "Cuốn sổ của bà",
+      "consequence": "Giao dịch đổ; Lan mất tiền dành dụm, ở lại chăm bà; má về nhà"
+    }
+  ],
+  "voice": "macOS say -v Linh (default speed)",
+  "outline_notes": "Chấp nhận: phòng trọ chỉ xuất hiện ở chương 1 để đối lập cô đơn thành phố với nhà bà; cơ chế 'đồ vật cũ' chạy 3 lần, mỗi lần có chi phí khác nhau (ghi trong cost)."
+}

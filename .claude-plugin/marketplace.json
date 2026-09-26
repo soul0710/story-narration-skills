@@ -1,0 +1,17 @@
+{
+  "name": "story-narration",
+  "owner": { "name": "soul0710" },
+  "metadata": {
+    "description": "Skills for writing long (30–120+ min) narrated story videos in Vietnamese, from idea to shot list."
+  },
+  "plugins": [
+    {
+      "name": "story-narration",
+      "source": "./plugins/story-narration",
+      "description": "7 skills (sn-studio, sn-premise, sn-bible, sn-outline, sn-write, sn-review, sn-shots) + a Python checker for long narrated story scripts with Vietnamese output.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["screenwriting", "storytelling", "narration", "youtube", "vietnamese", "long-form", "script"]
+    }
+  ]
+}

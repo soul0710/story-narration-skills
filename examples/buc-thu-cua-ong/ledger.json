@@ -1,0 +1,198 @@
+{
+  "characters": {
+    "lan": {
+      "name": "Lan",
+      "role": "protagonist",
+      "status": "alive",
+      "died_in": null,
+      "signature": "cô gái 28 tuổi, tóc buộc thấp, áo khoác len màu rêu, đeo ba lô vải xám",
+      "xung_ho": "con–bà; con–chú; tui–ông (Minh)"
+    },
+    "ba-noi": {
+      "name": "Bà nội",
+      "role": "mentor/secret-keeper",
+      "status": "alive",
+      "died_in": null,
+      "signature": "bà cụ 78 tuổi, tóc bạc búi thấp, áo bà ba nâu, đi chân trái hơi khập khiễng"
+    },
+    "chu-hung": {
+      "name": "Chú Hùng",
+      "role": "opponent",
+      "status": "alive",
+      "died_in": null,
+      "signature": "người đàn ông 52 tuổi, hơi mập, sơ mi trắng bỏ trong quần, cầm xấp giấy tờ kẹp nhựa xanh"
+    },
+    "minh": {
+      "name": "Minh",
+      "role": "ally",
+      "status": "alive",
+      "died_in": null,
+      "signature": "thanh niên 29 tuổi, da rám nắng, nón lá rách vành, áo thun xanh bạc màu"
+    },
+    "me-hanh": {
+      "name": "Bà Hạnh",
+      "role": "catalyst",
+      "status": "alive",
+      "died_in": null,
+      "signature": "người phụ nữ 54 tuổi, tóc ngắn ngang vai, áo bà ba tím nhạt, đội nón lá"
+    },
+    "moi-gioi": {
+      "name": "Người môi giới",
+      "role": "minor opponent",
+      "status": "alive",
+      "died_in": null
+    },
+    "ong-noi": {
+      "name": "Ông nội",
+      "role": "ghost",
+      "status": "dead",
+      "died_in": 0
+    }
+  },
+  "promises": [
+    {
+      "id": "P01",
+      "type": "mystery",
+      "desc": "Ai viết bức thư bằng nét chữ ông?",
+      "planted": 1,
+      "payoff": 4,
+      "status": "paid"
+    },
+    {
+      "id": "P02",
+      "type": "mystery",
+      "desc": "Vì sao thư dặn 'Đừng để bà biết'?",
+      "planted": 1,
+      "payoff": 6,
+      "status": "paid"
+    },
+    {
+      "id": "P03",
+      "type": "chekhov",
+      "desc": "Chiếc chìa khóa đồng ở chỗ cũ mở cái gì?",
+      "planted": 1,
+      "payoff": 3,
+      "status": "paid"
+    },
+    {
+      "id": "P04",
+      "type": "threat",
+      "desc": "Chú Hùng sẽ bán nhà và dỡ căn phòng trước rằm",
+      "planted": 2,
+      "payoff": 6,
+      "status": "paid"
+    },
+    {
+      "id": "P05",
+      "type": "bond",
+      "desc": "Lan có gặp lại mẹ không?",
+      "planted": 3,
+      "payoff": 6,
+      "status": "paid"
+    },
+    {
+      "id": "P06",
+      "type": "mystery",
+      "desc": "Vì sao bà hay quên, gọi sai tên?",
+      "planted": 2,
+      "payoff": 4,
+      "status": "paid"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "K01",
+      "fact": "Bức thư do bà nội viết, tập theo nét chữ ông"
+    },
+    {
+      "id": "K02",
+      "fact": "Chú Hùng định bán nhà ngay sau rằm, đã nhận tiền cọc"
+    },
+    {
+      "id": "K03",
+      "fact": "Mẹ Lan viết thư cho Lan suốt hai mươi năm; bà giấu hết trong căn phòng"
+    },
+    {
+      "id": "K04",
+      "fact": "Bà nội đang mất trí nhớ"
+    },
+    {
+      "id": "K05",
+      "fact": "Năm xưa bà đuổi mẹ Lan đi vì mẹ muốn đưa Lan lên thành phố"
+    },
+    {
+      "id": "K06",
+      "fact": "Trong sổ bà dặn: nếu mai bà quên, đừng để bà cản Lan và Hạnh"
+    },
+    {
+      "id": "K00",
+      "fact": "(niềm tin sai của Lan) Mẹ bỏ Lan mà đi, không cần cô"
+    }
+  ],
+  "props": [
+    {
+      "id": "X01",
+      "name": "chìa khóa đồng",
+      "function": "mở căn phòng giấu thư; đổi nghĩa ba lần",
+      "recurring": true
+    },
+    {
+      "id": "X02",
+      "name": "bức thư nét chữ ông",
+      "function": "khởi động truyện; bằng chứng bà viết"
+    },
+    {
+      "id": "X03",
+      "name": "thùng thư của mẹ",
+      "function": "bằng chứng mẹ không bỏ Lan; bị đốt"
+    },
+    {
+      "id": "X04",
+      "name": "cuốn sổ của bà",
+      "function": "trí nhớ của bà; chứa lời dặn cuối"
+    }
+  ],
+  "facts": [
+    {
+      "ch": 0,
+      "fact": "Ông mất bảy năm trước; mẹ đi khi Lan tám tuổi, tức hai mươi năm trước"
+    },
+    {
+      "ch": 1,
+      "fact": "Thư đến ngày mười một tháng Bảy âm lịch; rằm còn bốn ngày"
+    },
+    {
+      "ch": 1,
+      "fact": "Bà nội đau chân trái, không lên được gác"
+    }
+  ],
+  "realworld": [
+    {
+      "item": "Chợ nổi Cái Răng họp từ 2–3 giờ, đông nhất 4–6 giờ sáng; chiều không họp",
+      "status": "verified",
+      "source": "acccantho.vn/cho-noi-cai-rang-nen-di-luc-may-gio; bestprice.vn",
+      "note": "ch5 chiều tà: 'không còn tiếng rao' — khớp; ch6 5 giờ sáng đông — khớp"
+    },
+    {
+      "item": "Xã Mỹ Khánh (Phong Điền) sáp nhập vào phường An Bình từ 01/7/2025",
+      "status": "verified",
+      "source": "thuvienphapluat.vn; tuoitre.vn 25/06/2025",
+      "note": "đã bỏ tên xã khỏi con dấu bưu điện (ch1) để tránh sai thời điểm"
+    },
+    {
+      "item": "Bến tàu Ninh Kiều có ghe/tàu chở khách đi các nơi trên sông",
+      "status": "unverified",
+      "note": "cần kiểm tra; nếu không chắc, đổi thành 'bến ghe gần chợ'"
+    },
+    {
+      "item": "Khoảng cách từ làng tới chợ nổi Cái Răng 'chưa tới hai chục cây số'",
+      "status": "fictional",
+      "note": "làng không nêu tên, khoảng cách hợp lý với vùng Phong Điền"
+    },
+    {
+      "item": "Rằm tháng Bảy = lễ Vu Lan; chợ bán hoa cúc vàng",
+      "status": "verified",
+      "source": "kiến thức phổ thông"
+    }
+  ]
+}

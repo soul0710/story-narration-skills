@@ -1,0 +1,10 @@
+{
+  "name": "story-narration",
+  "version": "1.0.0",
+  "description": "Write long (30–120+ min) narrated story videos in Vietnamese: brief → story bible → outline → chapter-by-chapter narration → mandatory detailed review → shot list for image/video prompt skills.",
+  "author": { "name": "soul0710" },
+  "homepage": "https://github.com/soul0710/story-narration-skills",
+  "repository": "https://github.com/soul0710/story-narration-skills",
+  "license": "MIT",
+  "keywords": ["screenwriting", "storytelling", "narration", "youtube", "vietnamese", "long-form", "script"]
+}
