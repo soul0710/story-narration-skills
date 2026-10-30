@@ -1,6 +1,7 @@
 ---
 name: sn-bible
-description: Stage 2 of the Story Narration suite — build the story bible for a long narrated story video: characters (want/need, voice, xưng hô, verbatim visual signature, arc), opponent tiers, world and locations with drawable anchors and a concrete era, narrative props, narrator voice sample, and the continuity ledger (characters, promises, author-truth knowledge, props, fragile facts). Use after sn-premise is approved, or when the user asks to "tạo nhân vật", "hồ sơ nhân vật", "thiết lập thế giới", "giọng người kể", "sửa nhân vật" for an sn project.
+description: >-
+  Stage 2 of the Story Narration suite — build the story bible for a long narrated story video: characters (want/need, voice, xưng hô, verbatim visual signature, arc), opponent tiers, world and locations with drawable anchors and a concrete era, narrative props, narrator voice sample, and the continuity ledger (characters, promises, author-truth knowledge, props, fragile facts). Use after sn-premise is approved, or when the user asks to "tạo nhân vật", "hồ sơ nhân vật", "thiết lập thế giới", "giọng người kể", "sửa nhân vật" for an sn project.
 ---
 
 # sn-bible — Characters, world, narrator, ledger
@@ -19,6 +20,11 @@ From the brief (for adaptations: from the source text, not invention):
   function; list the merges.
 - `bible/characters.md` (Vietnamese), one section per character per characters-and-dialogue.md §1.
   The **visual signature is one fixed phrase** reused verbatim in every shot file.
+- Apply `{studio}/references/ai-film-production.md` §3: in those same character entries distinguish
+  fixed identity, changing scene state and actual vs planned reference images. Plan face/full-body
+  references for recurring cast; extra angles only as needed. Do not generate images or claim a
+  reference exists. Keep the Seedance 2.0 collage warning tool-specific; a design sheet is not
+  automatically suitable input for every model. Existing canon approval still owns new identity facts.
 - Opponents: tiers (minor / middle / major / optional hidden); each with a believable want and one
   concrete cruelty the audience will see. Opponents act rationally on what they know.
 - Relationship map (Mermaid `graph TD`) at the end.

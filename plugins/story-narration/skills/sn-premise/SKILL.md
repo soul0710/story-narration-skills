@@ -1,6 +1,7 @@
 ---
 name: sn-premise
-description: Stage 1 of the Story Narration suite — turn an idea or an existing story/novel into an approved brief for a long narrated story video (30–120+ min): logline, genre and core emotion, dramatic or calm profile, narrator stance, runtime and syllable budget with speaking-rate calibration, chapter count. Use when the user brings a story idea or source text for a long "video kể chuyện", "truyện audio", "kịch bản truyện dài", "chuyển thể truyện thành video", or says "bắt đầu dự án truyện mới". Not for writing chapters (sn-write) or outlining (sn-outline).
+description: >-
+  Stage 1 of the Story Narration suite — turn an idea or an existing story/novel into an approved brief for a long narrated story video (30–120+ min): logline, genre and core emotion, dramatic or calm profile, narrator stance, runtime and syllable budget with speaking-rate calibration, chapter count. Use when the user brings a story idea or source text for a long "video kể chuyện", "truyện audio", "kịch bản truyện dài", "chuyển thể truyện thành video", or says "bắt đầu dự án truyện mới". Not for writing chapters (sn-write) or outlining (sn-outline).
 ---
 
 # sn-premise — Idea → approved brief
@@ -71,6 +72,9 @@ approval set `project.json.stage` = `"bible"` and hand off to `sn-bible`.
 
 ## Quality bar
 
+- Apply `sn-studio/references/ai-film-production.md` §1 to the existing logline: who wants what,
+  what blocks them, and the visible change. For calm/no-character stories, use a gentle desire or
+  discovery, not invented danger. Do not add a second brief or an image-generation step.
 - The logline contains a concrete conflict ("một câu chuyện cảm động về tình thân" is not a logline).
 - The premise promise is specific enough to generate 3+ set-pieces; the engine has a destination.
 - The plan is realistic: a 30-minute story with 4 subplots and 9 characters is flagged and trimmed.

@@ -1,6 +1,7 @@
 ---
 name: sn-review
-description: Stage 5 of the Story Narration suite — review and revise written chapters of a long narrated story script: deterministic checks, 5-dimension scoring, agency and mechanism-exhaustion audit, template-feel and Vietnamese AI-voice passes, structural reverse outline, and final export (full script, plain TTS narration, voice-actor script, YouTube chapter timestamps). Use when the user asks to "kiểm tra chương", "review kịch bản", "đánh giá", "rà soát mạch truyện", "khử giọng AI", "xuất kịch bản", or after sn-write batches.
+description: >-
+  Stage 5 of the Story Narration suite — review and revise written chapters of a long narrated story script: deterministic checks, 5-dimension scoring, agency and mechanism-exhaustion audit, template-feel and Vietnamese AI-voice passes, structural reverse outline, and final export (full script, plain TTS narration, voice-actor script, YouTube chapter timestamps). Use when the user asks to "kiểm tra chương", "review kịch bản", "đánh giá", "rà soát mạch truyện", "khử giọng AI", "xuất kịch bản", or after sn-write batches.
 ---
 
 # sn-review — Score, fix, export
@@ -12,6 +13,11 @@ description: Stage 5 of the Story Narration suite — review and revise written 
 passes also `{studio}/references/structure.md` and `{studio}/references/scene-craft.md` (§9 checklist).
 
 ## Scope
+
+When the requested review includes generated-visual planning or existing shot files, apply
+`{studio}/references/ai-film-production.md` §2–7 to visible emotion, identity/reference status,
+first-frame/action consistency and cut handoffs. Keep narration coverage and canon intact. A prompt
+review is not a media-quality review; do not require generated assets to review a written chapter.
 
 `review N`, `review N-M`, or `review all`. Default: chapters written since the last review.
 

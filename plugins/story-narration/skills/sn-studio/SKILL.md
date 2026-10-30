@@ -86,6 +86,7 @@ warning: fix it or consciously accept it with a reason. Never claim a gate passe
 | `references/characters-and-dialogue.md` | character sheet, narrator voice, dialogue as action, dialogue checklist |
 | `references/narration-format.md` | the tagged chapter format and narration craft |
 | `references/generability.md` | writing `[HÌNH]` that AI video can render; location/prop economy; era |
+| `references/ai-film-production.md` | supplied video's seven stations: visual beats, character assets, storyboard/first-frame handoff, prompt layers, one-camera and retry discipline; read sections relevant to the current stage |
 | `references/continuity.md` | ledger.json, three layers of truth, chapter header, state card, revision order |
 | `references/anti-ai-vi.md` | AI voice and template feel in Vietnamese narration |
 | `references/review-protocol.md` | **how to review**: logic → people → prose, separate passes, quote + basis + class, reviewer prompt, versions |

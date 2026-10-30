@@ -8,6 +8,8 @@ description: Stage 6 of the Story Narration suite — convert a written narratio
 `{studio}` = the sibling `sn-studio` skill directory. Read `{studio}/references/generability.md`,
 `{studio}/references/narration-format.md`, `bible/characters.md` (visual signatures),
 `bible/world.md` (era, location anchors).
+Also read `{studio}/references/ai-film-production.md` §3–7 for reference handoff, first-frame planning
+and production iteration. This skill still writes shot scripts, not image/video prompts.
 
 Precondition: the chapter exists and passes `sn.py duration` and `sn.py continuity`.
 The story layer owns the drama; the shot layer owns the camera (shuohao). Never change story content
@@ -42,6 +44,9 @@ Five core fields (required by calm prompt skills; `sn.py shots` checks them) + e
 
 Keep signatures and location anchors word-identical across all chapter files (continuity lock,
 drama-skills). Pin the era concretely.
+Confirm the output ratio (default 16:9); record fps only if supplied or required for a real render,
+never as a made-up prompt guarantee. Reuse the bible's reference plan; if images are missing, name
+the needed assets in the handoff without blocking shot writing or inventing attachment IDs.
 
 ## Step 3 — Cut the chapter
 
@@ -82,6 +87,13 @@ Rules:
 - Every spoken word of the chapter appears exactly once in `loi_dan`, in order (dialogue lines may keep a
   `[Tên]` prefix; `sn.py` ignores it). Silent shots: `(im lặng)`.
 - One moment per shot; visuals generable (generability.md); risky shots keep `(rủi ro cao)` + fallback.
+- `Cảnh` makes the drawable first state explicit, then the action and end state. `Cảm xúc` is the
+  intended effect; put its visible carrier in `Cảnh`. Image creation locks that first state before
+  I2V adds motion. Do not put a completed action in the initial still and replay it in video.
+- Before handing off, check purpose, size/angle, motivated lighting, audio layer, references and
+  status using ai-film-production.md §4. Use the existing fields; any requested production-status
+  table stays outside the two fixed-format files. One camera choice applies per continuous shot;
+  a downstream storyboard may use one choice per subshot with cuts, not one move for the whole clip.
 - Visualise, don't caption: dialogue scenes show faces, hands in simple actions, objects, reactions — no
   on-screen text.
 - Continuity across shots: time of day, weather, wardrobe, props in hand, eyelines, direction of travel;
@@ -101,3 +113,7 @@ syllables for the clip), clip runtime far from narration runtime. Fix and re-run
 Then report shot count and clip runtime vs narration runtime, and tell the user the next step, e.g. give
 `shots/kich_ban_ch01.md` to the storyboard prompt skill, and use `shots/loi_dan_ch01.md` + `export/narration.txt`
 when laying the voice-over in the edit.
+Mention planned/missing references and that first images need visual approval before animation.
+When returned media is actually reviewed, use ai-film-production.md §7: preserve accepted assets,
+fix one causal variable per attempt and check both sides of each affected cut. Prompt/checker PASS
+does not certify generated-image/video quality; do not launch or budget retries from this skill.

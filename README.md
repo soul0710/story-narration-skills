@@ -71,6 +71,11 @@ Lỗi cấu trúc là `✗` (chặn); lỗi về tay nghề / khẩu vị là `!
 
 ## Tương thích
 
+Quy trình chuẩn bị sản xuất ảnh/video được bổ sung từ video “Phim AI đẹp không nhờ prompt thần chú —
+7 trạm của creator Trung Quốc”: [AI film production](plugins/story-narration/skills/sn-studio/references/ai-film-production.md).
+Tài liệu phân biệt nguyên tắc chung, phần điều chỉnh cho kể chuyện có lời dẫn và lưu ý riêng theo model;
+giữ nguyên các cổng duyệt, định dạng shot và kiểm tra phủ lời dẫn hiện có.
+
 Đầu ra của `sn-shots` theo định dạng `kich_ban.md` (STYLE ANCHOR + SHOT) dùng được với các skill sinh prompt ảnh/video dạng *scene* hoặc *storyboard* (trường `Nhạc` cho nhánh nhịp chậm, `Âm thanh` + `Hình ảnh` cho nhánh điện ảnh).
 
 ## Ghi công

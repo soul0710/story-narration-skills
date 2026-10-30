@@ -83,3 +83,11 @@ The first image carries the hook **in motion**: ✗ static close-up (knuckles wh
 Change one beat → reread the beat before and after. Check three things: **where each person is**, **what
 is in whose hand**, **who is present**. When the image changes, the sound note (and later the shot) must
 change with it.
+
+## 9. Production handoff [sn adaptation of supplied video]
+
+For first-frame vs motion, character reference assets, model-specific exceptions, storyboard planning
+and one-variable retries, read [AI film production](ai-film-production.md) (§2–7). Apply the visible
+emotion examples to `[HÌNH]` without adding new canon. Story writing retains the meaning; shot
+planning supplies a drawable initial state and a feasible change. These are craft checks, not new
+structural errors in `sn.py`, and do not authorize generating media.
