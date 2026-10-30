@@ -11,6 +11,12 @@ creator Trung Quốc”**, 4:47.85, supplied 2026-10-30. Evidence is sampled on-
 burned-in subtitles, not a complete audio transcript. Times below are approximate. **[video]**
 means observed advice; **[sn adaptation]** means its application here. Examples are rewritten.
 Claims attributed by the video to official model guides have not been independently verified here.
+Follow-up evidence: the supplied `*_2-transcription-report.txt` lists 82 flagged entries out of
+95 subtitle lines, not the full transcript. Its text supplies the missing end-frame, short-scene
+and model-format advice below. Spelling and timestamps may be unreliable; normalize obvious
+ASR variants such as Kling/Seedance and seconds, but do not reconstruct omitted lines as quotes.
+The limited official-document cross-check in §6 is separately attributed, not verification of
+all claims in the video.
 
 | Video station | Approximate section | Owner in this suite |
 |---|---|---|
@@ -99,6 +105,17 @@ If production tracking is requested, add a compact table **outside** `kich_ban_c
 Use `planned`, `generated`, `reviewed`, `accepted` only when true. It is not a new mandatory artifact
 or new JSON schema; the checker still validates structural facts, not visual quality.
 
+### Short scenes: recommendation, contract and model limit are different
+
+**[video, report entries 34–35]** One guide is reported to recommend scenes no longer than
+eight seconds because later parts of longer generations can degrade, with one main action per scene.
+**[sn adaptation]** Eight seconds is a useful planning default, not an experimentally established
+quality threshold or universal model maximum. `sn-shots` already has a configurable clip length;
+honor the downstream skill's actual contract. Do not silently shorten a requested longer shot or
+split it if that changes the approved story, cut count or narration map. For an agreed split, preserve
+the action/state handoff, then re-segment and recheck full in-order narration coverage. For a longer
+continuous shot, verify selected-tool duration support and recheck motion/narration load.
+
 ## 5. Image first, motion second
 
 **[video]** If the input image already fixes the sunset, ground and robot, the motion instruction
@@ -114,6 +131,27 @@ Repeat the identity/style needed for a standalone line, but do not add competing
 or an extra action just to make a longer prompt. Inspect and fix the still before animating it.
 `sn-shots` supplies this information in Vietnamese; it does not start emitting English prompt files.
 
+### Optional end frame: same scene, reachable result
+
+**[video, report entries 58–59]** The video mentions Kling's `Add End Frame` control and warns that
+very different first/last images can cause a scene jump. The control's name/location is video-reported,
+not a promise about the current interface. Check the selected model, mode and actual attachment controls.
+**[sn adaptation]** Use an end frame only when supplied/requested and supported; it is not a mandatory
+third artifact, and a storyboard's last panel is not automatically an end-frame attachment.
+
+- Compare identity, hair, outfit, set geometry, time/weather/light, props and hands, framing and direction
+  between both images. The end pose must be reachable through the planned action and camera path within
+  the clip. Similar does not mean pixel-identical: a head turn or small camera displacement should change
+  the view while preserving the scene. Do not demand a return to the opening pose unless it is a loop.
+- State `first state → one action → target last state` without introducing an extra cut, outfit change,
+  day/night switch or different person. If the two references conflict, identify the exact conflict and
+  have the incompatible asset corrected or the intended transition clarified. Do not force a morph.
+- Example: the same seated woman, same blue jacket/daylit cafe, looking down in the first frame and
+  toward the window in the last is compatible with a small gaze turn. A different face in evening wear
+  at night is not that shot's final state; treat an intended place/time change as a separate planned shot.
+- Describe the desired result if no end image exists; do not invent attachment IDs or claim one is bound.
+  If a correction changes the image, check the paired motion and the next shot's start as well.
+
 ## 6. Layer instructions without mixing tool dialects
 
 **[video]** Kling is presented as subject + motion + scene, with camera as an added control.
@@ -125,6 +163,28 @@ If attachments are actually supported, identify which image is the character, lo
 Use real attachment bindings, not fabricated `@Image1` tokens. An illustrative filename must be
 labelled planned. Keep tool-specific commands out of generic shot scripts and Veo prompts unless
 the selected tool supports them. Never infer supported reference counts from the video's examples.
+
+### Separate the editing timeline from the selected model's prompt dialect
+
+**[video, report entries 83–85]** Seedance 2.0 is described as using scene labels rather than forcing
+seconds into the prompt; Kling 4.0 is described as using time markers. These are video-reported writing
+examples, not universal requirements or prohibitions. Keep the approved timing plan independently of
+how a renderer accepts controls. A scene-labelled prompt does not itself set an exact clip duration.
+
+| Destination | Adaptation when that destination is actually selected and documented |
+|---|---|
+| Seedance 2.0, video example | `Scene 1: medium view of the seated character; Scene 2: closer view of the same pose.` Set duration through supported controls; do not discard the editorial timing plan. |
+| Kling 4.0, video example | Use supported shot durations/time markers for the same beats, e.g. `0–4s` and `4–8s`; verify mode/API rather than assuming free text enforces timing. |
+| Hailuo, video example | Bracketed camera commands are tool syntax; do not copy them into another tool automatically. |
+| Existing Veo scene/storyboard skills | Keep their standalone lines, 8-second contract and storyboard timestamps. Video advice about another model does not rewrite these outputs. |
+
+**[official cross-check, 2026-10-30]** Kling's guide describes longer clips and multiple keyframes;
+Seedance's launch page describes multi-shot output. Neither establishes the video's exclusive syntax
+rules: [Kling guide](https://kling.ai/blog/kling-4-ai-video-model),
+[Seedance launch](https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0/).
+Use these as limited supporting context, not a substitute for the current target mode's prompt/API
+documentation. User-selected tool changes require a compatible downstream skill; never merely replace
+the model name while retaining incompatible bindings or dropping narration/timing invariants.
 
 ## 7. One camera choice per uninterrupted shot; revise one variable
 
